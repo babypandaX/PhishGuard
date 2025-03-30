@@ -29,7 +29,6 @@ Step 2. **Chrome Extension**:
 -----------------------------------------------------------------------------------
 **🌐 Web3 Integration**
 
- **Component**	              **echnology Used**
-ENS Verification ------->	   Web3.py, Infura API
-Wallet Detection ------->	   Regex Patterns
-Blockchain Connect ----->	   Ethereum Mainnet
+ENS Verification -------> Web3.py, Infura API
+Wallet Detection -------> Regex Patterns
+Blockchain Connect -----> Ethereum Mainnet
