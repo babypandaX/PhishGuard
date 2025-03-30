@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     document.getElementById('reasonsList').innerHTML = 
       `<div class="flag-item">❌ ${error.message}</div>`;
   }
-// Add after the existing code
+
 document.getElementById('proceedBtn')?.addEventListener('click', () => {
   chrome.runtime.sendMessage({
     action: 'allowUrl',
