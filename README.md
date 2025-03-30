@@ -19,6 +19,7 @@ Step 1. **Backend Setup**:
    cd backend
    pip install -r requirements.txt
    python app.py
+   ```
 
 Step 2. **Chrome Extension**:
 
