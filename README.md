@@ -28,7 +28,8 @@ Step 2. **Chrome Extension**:
 - Click "Load unpacked" → Select extension/ folder
 -----------------------------------------------------------------------------------
 **🌐 Web3 Integration**
- **Component**	         T     **echnology Used**
+
+ **Component**	              **echnology Used**
 ENS Verification ------->	   Web3.py, Infura API
 Wallet Detection ------->	   Regex Patterns
 Blockchain Connect ----->	   Ethereum Mainnet
