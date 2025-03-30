@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "PhishGuard Pro",
+  "version": "2.2.2",
+  "description": "Advanced phishing detection engine",
+  "icons": {
+    "16": "icons/shield16.png",
+    "48": "icons/shield48.png",
+    "128": "icons/shield128.png"
+  },
+  "permissions": ["storage", "webNavigation", "alarms", "tabs"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "PhishGuard",
+    "default_icon": {
+      "16": "icons/shield16.png",
+      "48": "icons/shield48.png"
+    }
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'"
+  },
+  "web_accessible_resources": [{
+    "resources": ["warning.html", "styles.css", "icons/shield*.png"],
+    "matches": ["<all_urls>"]
+  }]
+}

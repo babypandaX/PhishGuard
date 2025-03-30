@@ -1,0 +1,97 @@
+:root {
+  --primary-red: #ff4444;
+  --dark-bg: #0a0a0a;
+  --warning-yellow: #ffdd57;
+  --danger-bg: #7f1d1d;
+  --text-light: #ffffff;
+}
+
+body {
+  background: var(--dark-bg);
+  color: var(--text-light);
+  font-family: 'Roboto', sans-serif;
+  margin: 1rem auto;
+  padding: 0.8rem;
+  max-width: 400px;
+  line-height: 1.4;
+}
+
+.warning-header {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+#shield-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.danger-banner {
+  background: var(--danger-bg);
+  padding: 0.6rem;
+  text-align: center;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.blink {
+  animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+  50% { opacity: 0.4; }
+}
+
+.risk-meter {
+  background: #2d2d2d;
+  height: 18px;
+  border-radius: 9px;
+  margin: 1rem 0;
+}
+
+.risk-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--warning-yellow), var(--primary-red));
+  transition: width 0.5s ease-out;
+}
+
+.risk-score {
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 1rem 0;
+  font-weight: 700;
+}
+
+.proceed-btn {
+  background: var(--primary-red);
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 25px;
+  margin: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.url-display {
+  background: #252525;
+  padding: 0.6rem;
+  border-radius: 6px;
+  word-break: break-all;
+  font-family: monospace;
+  font-size: 0.85rem;
+}
+
+.flag-item {
+  background: #2b2b2b;
+  padding: 0.8rem;
+  margin: 0.3rem 0;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}

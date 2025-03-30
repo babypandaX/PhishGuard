@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PhishGuard Alert</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="warning-header">
+    <img src="icons/shield128.png" id="shield-icon" alt="Security Shield">
+    <h1>Security Threat Blocked</h1>
+  </header>
+  
+  <div class="danger-banner blink">
+    MALICIOUS WEBSITE DETECTED
+  </div>
+  
+  <main class="alert-content">
+    <section class="blocked-url-section">
+      <div class="url-display" id="blockedUrl"></div>
+    </section>
+    
+    <section class="risk-analysis">
+      <div class="risk-meter">
+        <div class="risk-fill" id="riskFill"></div>
+      </div>
+      <div class="risk-score" id="riskScore"></div>
+      <div class="risk-flags" id="reasonsList"></div>
+    </section>
+    
+    <section class="action-buttons">
+      <button class="proceed-btn" id="proceedBtn">Proceed Anyway</button>
+      <button class="back-btn" id="backBtn">Back to Safety</button>
+    </section>
+  </main>
+
+  <script src="warning.js"></script>
+</body>
+</html>
