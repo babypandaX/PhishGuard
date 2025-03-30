@@ -14,8 +14,20 @@ Combining traditional security with blockchain verification to protect against m
 - Chrome Extension Integration
 
 ## 🚀 Quick Start
-1. **Backend Setup**:
+Step 1. **Backend Setup**:
    ```bash
    cd backend
    pip install -r requirements.txt
    python app.py
+
+Step 2. **Chrome Extension**:
+
+- Open chrome://extensions
+- Enable "Developer mode"
+- Click "Load unpacked" → Select extension/ folder
+-----------------------------------------------------------------------------------
+**🌐 Web3 Integration**
+ **Component**	         T     **echnology Used**
+ENS Verification ------->	   Web3.py, Infura API
+Wallet Detection ------->	   Regex Patterns
+Blockchain Connect ----->	   Ethereum Mainnet
