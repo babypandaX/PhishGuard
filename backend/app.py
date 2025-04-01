@@ -41,6 +41,18 @@ BRAND_DOMAINS = {
     'coinbase': ['coinbase.com', 'cb.com'],
     'binance': ['binance.com', 'binance.us'],
     'crypto': ['crypto.com', 'nexo.com']
+    'sbi': ['sbi.co.in', 'onlinesbi.com'],  
+    'hdfcbank': ['hdfcbank.com', 'hdfcsec.com'],  
+    'icicibank': ['icicibank.com', 'icicidirect.com'],  
+    'axisbank': ['axisbank.com', 'axisdirect.com'],  
+    'kotakmahindra': ['kotak.com', 'kotaksecurities.com'],  
+    'pnb': ['pnbindia.in', 'pnbcard.in'],  
+    'yesbank': ['yesbank.in', 'yessecurities.com'],  
+    'paytm': ['paytm.com', 'paytmpaymentsbank.com'],  
+    'phonepe': ['phonepe.com', 'phonepe.in'],  
+    'npci': ['npci.org.in', 'upi.org.in', 'rupay.co.in'],  
+    'indusindbank': ['indusind.com', 'indusindmobile.com'],  
+    'bajajfinserv': ['bajajfinserv.in', 'bajajfinservmarkets.in']  
 }
 
 GOOGLE_API_KEY = "AIzaSyA5nF2eOEhYvY-GCnHuk4jjPv1LcrwC3J8"
