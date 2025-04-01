@@ -29,8 +29,20 @@ Step 2. **Chrome Extension**:
 -----------------------------------------------------------------------------------
 **🌐 Web3 Integration**
 
+Frontend ---------------> Chrome Extension (HTML/CSS/JS) 
+
+Backend API ------------> Python/Flask 
+
+Domain Analysis --------> Tldextract, whois 
+
+SSL Verification -------> Custom TLSAdapter 
+
+Threat Intelligence ----> Google Safe Browsing API
+
 ENS Verification -------> Web3.py, Infura API
 
 Wallet Detection -------> Regex Patterns
 
 Blockchain Connect -----> Ethereum Mainnet
+
+**▶️🔴 Demo Video : - https://youtu.be/voKAQoWqvWg**
